@@ -1144,7 +1144,7 @@ Rival0Group:
 	db TRAINERTYPE_ITEM
 	; party
 	db 4, RATTATA, NO_ITEM
-	db 5, CYNDAQUIL, ORAN_BERRY
+	db 5, LARVITAR, ORAN_BERRY
 	db -1 ; end
 
 ; ================
@@ -1183,7 +1183,7 @@ Rival1Group:
 	db 14, GASTLY, NO_ITEM, 36
 	db 16, ZUBAT, NO_ITEM, 36
 	db 15, GEODUDE, NO_ITEM, 36
-	db 18, QUILAVA, ORAN_BERRY, 36
+	db 18, LARVITAR, ORAN_BERRY, 36
 	db -1 ; end
 
 ; ================
@@ -1230,8 +1230,7 @@ Rival1Group:
 		db HYPNOSIS, CONFUSION, HEADBUTT, LOW_KICK
 	db 20, ZUBAT, NO_ITEM, 52
 		db LEECH_LIFE, SUPERSONIC, BITE, CONFUSE_RAY
-	db 22, QUILAVA, ORAN_BERRY, 52
-		db LEER, SMOKESCREEN, EMBER, QUICK_ATTACK
+	db 22, LARVITAR, ORAN_BERRY, 52
 	db -1 ; end
 
 ; ================
@@ -1284,8 +1283,7 @@ Rival1Group:
 		db PAIN_SPLIT, MEAN_LOOK, CONFUSE_RAY, SHADOW_BALL
 	db 41, SNEASEL, NO_ITEM, 116
 		db SLASH, ICE_PUNCH, HONE_CLAWS, FEINT_ATTACK
-	db 43, TYPHLOSION, SITRUS_BERRY, 116
-		db SMOKESCREEN, FLAME_CHARGE, DIG, SWIFT
+	db 43, PUPITAR, SITRUS_BERRY, 116
 	db -1 ; end
 
 ; ================
@@ -1342,8 +1340,7 @@ Rival1Group:
 		db MEAN_LOOK, DARK_PULSE, SHADOW_BALL, CONFUSE_RAY
 	db 46, ALAKAZAM, BRIGHTPOWDER
 		db DISABLE, PSYCHIC_M, RECOVER, CONFUSE_RAY
-	db 49, TYPHLOSION, SITRUS_BERRY
-		db SMOKESCREEN, QUICK_ATTACK, DIG, FLAMETHROWER
+	db 49, PUPITAR, SITRUS_BERRY
 	db -1 ; end
 
 ; ================
@@ -1407,8 +1404,7 @@ Rival2Group:
 		db MEAN_LOOK, CURSE, SHADOW_BALL, CONFUSE_RAY
 	db 63, ALAKAZAM, BRIGHTPOWDER, 228
 		db DISABLE, RECOVER, FUTURE_SIGHT, PSYCHIC_M
-	db 65, TYPHLOSION, CHARCOAL, 228
-		db FLAMETHROWER, EARTH_POWER, THUNDERPUNCH, SMOKESCREEN
+	db 65, TYRANITAR, CHARCOAL, 228
 	db -1 ; end
 
 ; ================
@@ -1467,8 +1463,7 @@ Rival2Group:
 		db THUNDERBOLT, FOCUS_BLAST, SHADOW_BALL, CONFUSE_RAY
 	db 70, ALAKAZAM, BRIGHTPOWDER
 		db RECOVER, TRI_ATTACK, PSYCHIC_M, REFLECT
-	db 72, TYPHLOSION, LEFTOVERS
-		db FIRE_BLAST, FOCUS_BLAST, EARTH_POWER, SMOKESCREEN
+	db 72, TYRANITAR, LEFTOVERS
 	db -1 ; end
 
 ; ================
@@ -1512,7 +1507,7 @@ Lyra1Group:
 	db "Lyra@"
 	db TRAINERTYPE_NICKNAME
 	; party
-	db 5, CYNDAQUIL, "Zilla@"
+	db 5, LARVITAR, "Zilla@"
 	db -1 ; end
 
 ; ================
@@ -1545,7 +1540,7 @@ Lyra1Group:
 	db 16, PIDGEY, NO_ITEM, 36, "@"
 	db 17, SUNKERN, NO_ITEM, 36, "@"
 	db 15, MAREEP, NO_ITEM, 36, "@"
-	db 18, QUILAVA, ORAN_BERRY, 36, "Zilla@"
+	db 18, LARVITAR, ORAN_BERRY, 36, "Zilla@"
 	db -1 ; end
 
 ; ================
@@ -1583,7 +1578,7 @@ Lyra1Group:
 	db 34, SUNFLORA, NO_ITEM, 100, "@"
 	db 34, AZUMARILL, NO_ITEM, 100, "@"
 	db 32, FLAAFFY, NO_ITEM, 100, "@"
-	db 37, QUILAVA, ORAN_BERRY, 100, "Zilla@"
+	db 37, PUPITAR, ORAN_BERRY, 100, "Zilla@"
 	db -1 ; end
 
 ; ================
@@ -1624,7 +1619,7 @@ Lyra1Group:
 	db 45, SUNFLORA, NO_ITEM, 132, "@"
 	db 45, AZUMARILL, NO_ITEM, 132, "@"
 	db 46, AMPHAROS, NO_ITEM, 132, "@"
-	db 47, TYPHLOSION, SITRUS_BERRY, 132, "Zilla@"
+	db 47, PUPITAR, SITRUS_BERRY, 132, "Zilla@"
 	db -1 ; end
 
 ; ================
@@ -1671,7 +1666,7 @@ Lyra2Group:
 	db 70, AZUMARILL, NO_ITEM, "@"
 	db 71, AMPHAROS, NO_ITEM, "@"
 	db 68, GIRAFARIG, NO_ITEM, "@"
-	db 72, TYPHLOSION, SITRUS_BERRY, "Zilla@"
+	db 72, TYRANITAR, SITRUS_BERRY, "Zilla@"
 	db -1 ; end
 
 ; ================
