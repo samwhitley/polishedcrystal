@@ -137,7 +137,7 @@ DayCareLadyScript:
 	sjump .GotLyrasEgg
 
 .GiveCyndaquilEgg:
-	giveegg CYNDAQUIL
+	giveegg LARVITAR
 	sjump .GotLyrasEgg
 
 .GiveTotodileEgg:

@@ -153,7 +153,7 @@ DragonsDenB1FSilverScript:
 	sjump .GotRivalsEgg
 
 .GiveCyndaquilEgg:
-	giveegg CYNDAQUIL
+	giveegg LARVITAR
 .GotRivalsEgg
 	iffalse .PartyAndBoxFull 
 	writetext .DescribeEggText
