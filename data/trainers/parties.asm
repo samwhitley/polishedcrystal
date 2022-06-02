@@ -1134,7 +1134,7 @@ Rival0Group:
 	db TRAINERTYPE_ITEM
 	; party
 	db 4, RATTATA, NO_ITEM
-	db 5, CHIKORITA, ORAN_BERRY
+	db 5, MUNCHLAX, ORAN_BERRY
 	db -1 ; end
 
 ; ================
@@ -1171,7 +1171,7 @@ Rival1Group:
 	db 14, GASTLY, NO_ITEM, 36
 	db 16, ZUBAT, NO_ITEM, 36
 	db 15, GEODUDE, NO_ITEM, 36
-	db 18, BAYLEEF, ORAN_BERRY, 36
+	db 18, MUNCHLAX, ORAN_BERRY, 36
 	db -1 ; end
 
 ; ================
@@ -1212,8 +1212,7 @@ Rival1Group:
 		db HYPNOSIS, CONFUSION, HEADBUTT, LOW_KICK
 	db 20, ZUBAT, NO_ITEM, 52
 		db LEECH_LIFE, SUPERSONIC, BITE, CONFUSE_RAY
-	db 22, BAYLEEF, ORAN_BERRY, 52
-		db REFLECT, RAZOR_LEAF, POISONPOWDER, DISARM_VOICE
+	db 22, MUNCHLAX, ORAN_BERRY, 52
 	db -1 ; end
 
 ; ================
@@ -1265,8 +1264,7 @@ Rival1Group:
 		db PAIN_SPLIT, MEAN_LOOK, CONFUSE_RAY, SHADOW_BALL
 	db 41, SNEASEL, NO_ITEM, 116
 		db SLASH, ICE_PUNCH, HONE_CLAWS, FEINT_ATTACK
-	db 43, MEGANIUM, SITRUS_BERRY, 116
-		db REFLECT, LIGHT_SCREEN, PETAL_DANCE, ANCIENTPOWER
+	db 43, SNORLAX, SITRUS_BERRY, 116
 	db -1 ; end
 
 ; ================
@@ -1320,8 +1318,7 @@ Rival1Group:
 		db MEAN_LOOK, DARK_PULSE, SHADOW_BALL, CONFUSE_RAY
 	db 46, ALAKAZAM, BRIGHTPOWDER
 		db DISABLE, PSYCHIC_M, RECOVER, CONFUSE_RAY
-	db 49, MEGANIUM, SITRUS_BERRY
-		db REFLECT, LIGHT_SCREEN, ENERGY_BALL, ANCIENTPOWER
+	db 49, SNORLAX, SITRUS_BERRY
 	db -1 ; end
 
 ; ================
@@ -1384,8 +1381,7 @@ Rival2Group:
 		db MEAN_LOOK, CURSE, SHADOW_BALL, CONFUSE_RAY
 	db 63, ALAKAZAM, BRIGHTPOWDER, 228
 		db DISABLE, RECOVER, FUTURE_SIGHT, PSYCHIC_M
-	db 65, MEGANIUM, MIRACLE_SEED, 228
-		db SEED_BOMB, POISONPOWDER, BODY_SLAM, LIGHT_SCREEN
+	db 65, SNORLAX, LEFTOVERS, 228
 	db -1 ; end
 
 ; ================
@@ -1443,8 +1439,7 @@ Rival2Group:
 		db THUNDERBOLT, FOCUS_BLAST, SHADOW_BALL, CONFUSE_RAY
 	db 70, ALAKAZAM, BRIGHTPOWDER
 		db RECOVER, TRI_ATTACK, PSYCHIC_M, REFLECT
-	db 72, MEGANIUM, LEFTOVERS
-		db PETAL_DANCE, MOONBLAST, LIGHT_SCREEN, ANCIENTPOWER
+	db 72, SNORLAX, LEFTOVERS
 	db -1 ; end
 
 ; ================
@@ -1498,7 +1493,7 @@ Lyra1Group:
 	db "Lyra@"
 	db TRAINERTYPE_NICKNAME
 	; party
-	db 5, CHIKORITA, "Munchy@"
+	db 5, MUNCHLAX, "Munchy@"
 	db -1 ; end
 
 ; ================
@@ -1528,7 +1523,7 @@ Lyra1Group:
 	db 16, PIDGEY, NO_ITEM, 36, "@"
 	db 17, MARILL, NO_ITEM, 36, "@"
 	db 15, MAREEP, NO_ITEM, 36, "@"
-	db 18, BAYLEEF, ORAN_BERRY, 36, "Munchy@"
+	db 18, MUNCHLAX, ORAN_BERRY, 36, "Munchy@"
 	db -1 ; end
 
 ; ================
@@ -1565,7 +1560,7 @@ Lyra1Group:
 	db 34, GROWLITHE, NO_ITEM, 100, "@"
 	db 34, AZUMARILL, NO_ITEM, 100, "@"
 	db 32, FLAAFFY, NO_ITEM, 100, "@"
-	db 37, BAYLEEF, ORAN_BERRY, 100, "Munchy@"
+	db 37, SNORLAX, ORAN_BERRY, 100, "Munchy@"
 	db -1 ; end
 
 ; ================
@@ -1605,7 +1600,7 @@ Lyra1Group:
 	db 45, ARCANINE, NO_ITEM, 132, "@"
 	db 45, AZUMARILL, NO_ITEM, 132, "@"
 	db 46, AMPHAROS, NO_ITEM, 132, "@"
-	db 47, MEGANIUM, SITRUS_BERRY, 132, "Munchy@"
+	db 47, SNORLAX, SITRUS_BERRY, 132, "Munchy@"
 	db -1 ; end
 
 ; ================
@@ -1652,7 +1647,7 @@ Lyra2Group:
 	db 70, AZUMARILL, NO_ITEM, "@"
 	db 71, AMPHAROS, NO_ITEM, "@"
 	db 68, GIRAFARIG, NO_ITEM, "@"
-	db 72, MEGANIUM, SITRUS_BERRY, "Munchy@"
+	db 72, SNORLAX, SITRUS_BERRY, "Munchy@"
 	db -1 ; end
 
 ; ================
