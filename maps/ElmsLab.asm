@@ -203,8 +203,8 @@ CyndaquilPokeBallScript:
 	iftrue_jumptext ElmPokeBallText
 	turnobject ELMSLAB_ELM, DOWN
 	refreshscreen
-	pokepic CYNDAQUIL
-	cry CYNDAQUIL
+	pokepic LARVITAR
+	cry LARVITAR
 	waitbutton
 	closepokepic
 	opentext
@@ -216,7 +216,7 @@ CyndaquilPokeBallScript:
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	givepoke CYNDAQUIL, NO_FORM, 5, ORAN_BERRY
+	givepoke LARVITAR, NO_FORM, 5, ORAN_BERRY
 	writetext LyraChoosesStarterText
 	waitbutton
 	closetext
@@ -264,7 +264,7 @@ TotodilePokeBallScript:
 	pause 15
 	disappear ELMSLAB_POKE_BALL1
 	opentext
-	getmonname CYNDAQUIL, STRING_BUFFER_3
+	getmonname LARVITAR, STRING_BUFFER_3
 	writetext LyraReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
@@ -986,8 +986,8 @@ LabWhereGoingText:
 
 TakeCyndaquilText:
 	text "Elm: You'll take"
-	line "Cyndaquil, the"
-	cont "fire #mon?"
+	line "Larvitar, the"
+	cont "rock #mon?"
 	done
 
 TakeTotodileText:
@@ -1579,7 +1579,7 @@ LyraNicknamedChikoritaText:
 LyraNicknamedCyndaquilText:
 	text "Lyra: It's so"
 	line "cute! I'll nick-"
-	cont "name it Cinder!"
+	cont "name it Zilla!"
 	done
 
 LyraNicknamedTotodileText:
