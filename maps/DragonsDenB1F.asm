@@ -149,7 +149,7 @@ DragonsDenB1FSilverScript:
 	sjump .GotRivalsEgg
 
 .GiveChikoritaEgg:
-	giveegg CHIKORITA
+	giveegg MUNCHLAX
 	sjump .GotRivalsEgg
 
 .GiveCyndaquilEgg:

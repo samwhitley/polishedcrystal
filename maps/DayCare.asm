@@ -133,7 +133,7 @@ DayCareLadyScript:
 	iftrue .GiveCyndaquilEgg
 	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
 	iftrue .GiveTotodileEgg
-	giveegg CHIKORITA
+	giveegg MUNCHLAX
 	sjump .GotLyrasEgg
 
 .GiveCyndaquilEgg:
