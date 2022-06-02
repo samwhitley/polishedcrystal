@@ -224,7 +224,7 @@ CyndaquilPokeBallScript:
 	pause 15
 	disappear ELMSLAB_POKE_BALL3
 	opentext
-	getmonname CHIKORITA, STRING_BUFFER_3
+	getmonname MUNCHLAX, STRING_BUFFER_3
 	writetext LyraReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
@@ -281,8 +281,8 @@ ChikoritaPokeBallScript:
 	iftrue_jumptext ElmPokeBallText
 	turnobject ELMSLAB_ELM, DOWN
 	refreshscreen
-	pokepic CHIKORITA
-	cry CHIKORITA
+	pokepic MUNCHLAX
+	cry MUNCHLAX
 	waitbutton
 	closepokepic
 	opentext
@@ -294,7 +294,7 @@ ChikoritaPokeBallScript:
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	givepoke CHIKORITA, NO_FORM, 5, ORAN_BERRY
+	givepoke MUNCHLAX, NO_FORM, 5, ORAN_BERRY
 	writetext LyraChoosesStarterText
 	waitbutton
 	closetext
@@ -987,7 +987,7 @@ LabWhereGoingText:
 TakeCyndaquilText:
 	text "Elm: You'll take"
 	line "Larvitar, the"
-	cont "rock #mon?"
+	cont "beast #mon?"
 	done
 
 TakeTotodileText:
@@ -998,8 +998,8 @@ TakeTotodileText:
 
 TakeChikoritaText:
 	text "Elm: So, you like"
-	line "Chikorita, the"
-	cont "grass #mon?"
+	line "Munchlax, the"
+	cont "lazy #mon?"
 	done
 
 DidntChooseStarterText:
