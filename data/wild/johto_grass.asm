@@ -1184,16 +1184,16 @@
 	wildmon 70, ONIX
 	wildmon 74, MAGMAR
 	wildmon 74, GOLBAT
-	wildmon 75, PUPITAR
-	wildmon 75, PUPITAR
+	wildmon 75, QUILAVA
+	wildmon 75, QUILAVA
 	; day
 	wildmon 72, GRAVELER
 	wildmon 72, URSARING
 	wildmon 70, ONIX
 	wildmon 74, MAGMAR
 	wildmon 74, GOLBAT
-	wildmon 75, PUPITAR
-	wildmon 75, PUPITAR
+	wildmon 75, QUILAVA
+	wildmon 75, QUILAVA
 	; nite
 	wildmon 72, GRAVELER
 	wildmon 72, GOLBAT
@@ -1213,7 +1213,7 @@
 	wildmon 76, PARASECT
 	wildmon 76, PARASECT
 	wildmon 77, STEELIX
-	wildmon 77, PUPITAR
+	wildmon 77, QUILAVA
 	; day
 	wildmon 74, GOLBAT
 	wildmon 74, MACHOKE
@@ -1221,7 +1221,7 @@
 	wildmon 76, PARASECT
 	wildmon 76, PARASECT
 	wildmon 77, STEELIX
-	wildmon 77, PUPITAR
+	wildmon 77, QUILAVA
 	; nite
 	wildmon 74, GOLBAT
 	wildmon 74, GOLDUCK
@@ -1240,16 +1240,16 @@
 	wildmon 74, GOLEM
 	wildmon 78, URSARING
 	wildmon 78, STEELIX
-	wildmon 79, PUPITAR
-	wildmon 80, TYRANITAR
+	wildmon 79, QUILAVA
+	wildmon 80, TYPHLOSION
 	; day
 	wildmon 76, CROBAT
 	wildmon 76, ONIX
 	wildmon 74, GOLEM
 	wildmon 78, URSARING
 	wildmon 78, STEELIX
-	wildmon 79, PUPITAR
-	wildmon 80, TYRANITAR
+	wildmon 79, QUILAVA
+	wildmon 80, TYPHLOSION
 	; nite
 	wildmon 76, CROBAT
 	wildmon 76, MISDREAVUS
@@ -1257,7 +1257,7 @@
 	wildmon 78, CROBAT
 	wildmon 78, STEELIX
 	wildmon 79, GOLDUCK
-	wildmon 80, TYRANITAR
+	wildmon 80, TYPHLOSION
 	end_grass_wildmons
 
 	def_grass_wildmons SILVER_CAVE_ITEM_ROOMS
@@ -1996,16 +1996,16 @@
 	wildmon 30, GOLBAT
 	wildmon 31, MAROWAK
 	wildmon 32, ONIX
-	wildmon 15, LARVITAR
-	wildmon 15, LARVITAR
+	wildmon 15, CYNDAQUIL
+	wildmon 15, CYNDAQUIL
 	; day
 	wildmon 29, CUBONE
 	wildmon 30, ZUBAT
 	wildmon 30, GOLBAT
 	wildmon 31, MAROWAK
 	wildmon 32, ONIX
-	wildmon 15, LARVITAR
-	wildmon 15, LARVITAR
+	wildmon 15, CYNDAQUIL
+	wildmon 15, CYNDAQUIL
 	; nite
 	wildmon 29, CUBONE
 	wildmon 30, ZUBAT
@@ -2024,16 +2024,16 @@
 	wildmon 31, GOLBAT
 	wildmon 32, MAROWAK
 	wildmon 33, STEELIX
-	wildmon 15, LARVITAR
-	wildmon 15, LARVITAR
+	wildmon 15, CYNDAQUIL
+	wildmon 15, CYNDAQUIL
 	; day
 	wildmon 30, CUBONE
 	wildmon 31, ZUBAT
 	wildmon 31, GOLBAT
 	wildmon 32, MAROWAK
 	wildmon 33, STEELIX
-	wildmon 15, LARVITAR
-	wildmon 15, LARVITAR
+	wildmon 15, CYNDAQUIL
+	wildmon 15, CYNDAQUIL
 	; nite
 	wildmon 30, CUBONE
 	wildmon 31, ZUBAT
