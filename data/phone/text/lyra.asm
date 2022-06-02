@@ -108,7 +108,7 @@ LyraPhoneLyrasEggChikoritaText:
 	done
 
 LyraPhoneLyrasEggCyndaquilText:
-	text "I left my Cinder"
+	text "I left my Zilla"
 	line "at the Day-Care"
 	done
 
