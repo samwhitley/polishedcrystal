@@ -1498,7 +1498,7 @@ Lyra1Group:
 	db "Lyra@"
 	db TRAINERTYPE_NICKNAME
 	; party
-	db 5, CHIKORITA, "Chicory@"
+	db 5, CHIKORITA, "Munchy@"
 	db -1 ; end
 
 ; ================
@@ -1528,7 +1528,7 @@ Lyra1Group:
 	db 16, PIDGEY, NO_ITEM, 36, "@"
 	db 17, MARILL, NO_ITEM, 36, "@"
 	db 15, MAREEP, NO_ITEM, 36, "@"
-	db 18, BAYLEEF, ORAN_BERRY, 36, "Chicory@"
+	db 18, BAYLEEF, ORAN_BERRY, 36, "Munchy@"
 	db -1 ; end
 
 ; ================
@@ -1565,7 +1565,7 @@ Lyra1Group:
 	db 34, GROWLITHE, NO_ITEM, 100, "@"
 	db 34, AZUMARILL, NO_ITEM, 100, "@"
 	db 32, FLAAFFY, NO_ITEM, 100, "@"
-	db 37, BAYLEEF, ORAN_BERRY, 100, "Chicory@"
+	db 37, BAYLEEF, ORAN_BERRY, 100, "Munchy@"
 	db -1 ; end
 
 ; ================
@@ -1605,7 +1605,7 @@ Lyra1Group:
 	db 45, ARCANINE, NO_ITEM, 132, "@"
 	db 45, AZUMARILL, NO_ITEM, 132, "@"
 	db 46, AMPHAROS, NO_ITEM, 132, "@"
-	db 47, MEGANIUM, SITRUS_BERRY, 132, "Chicory@"
+	db 47, MEGANIUM, SITRUS_BERRY, 132, "Munchy@"
 	db -1 ; end
 
 ; ================
@@ -1652,7 +1652,7 @@ Lyra2Group:
 	db 70, AZUMARILL, NO_ITEM, "@"
 	db 71, AMPHAROS, NO_ITEM, "@"
 	db 68, GIRAFARIG, NO_ITEM, "@"
-	db 72, MEGANIUM, SITRUS_BERRY, "Chicory@"
+	db 72, MEGANIUM, SITRUS_BERRY, "Munchy@"
 	db -1 ; end
 
 ; ================

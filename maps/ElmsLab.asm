@@ -1573,7 +1573,7 @@ LyraReceivedStarterText:
 LyraNicknamedChikoritaText:
 	text "Lyra: It's so"
 	line "cute! I'll nick-"
-	cont "name it Chicory!"
+	cont "name it Munchy!"
 	done
 
 LyraNicknamedCyndaquilText:

@@ -103,7 +103,7 @@ LyraPhoneLyrasEggIntroText:
 	done
 
 LyraPhoneLyrasEggChikoritaText:
-	text "I left my Chicory"
+	text "I left my Munchy"
 	line "at the Day-Care"
 	done
 
