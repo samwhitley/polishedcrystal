@@ -25,7 +25,7 @@ UniqueWildMoves:
 	db WHIRL_ISLANDS,    0,          0
 	db CLIFF_CAVE,       0,          0
 	db YELLOW_FOREST,    PIKACHU,    FLY          ; replaced with Surf if Surfing
-	db QUIET_CAVE,       MUNCHLAX,   GIGA_IMPACT  ; Snorlax move
+	db QUIET_CAVE,       0,          0
 	db MT_MORTAR,        0,          0
 	db LAKE_OF_RAGE,     MAGIKARP,   HYDRO_PUMP   ; Pokéwalker move
 	db ICE_PATH,         0,          0

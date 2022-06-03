@@ -1938,7 +1938,7 @@
 	wildmon 27, CUBONE
 	wildmon 28, ZUBAT
 	wildmon 28, MACHOP
-	wildmon 29, MUNCHLAX
+	wildmon 29, CHIKORITA
 	wildmon 30, GOLBAT
 	wildmon 28, NATU
 	wildmon 28, GOLBAT
@@ -1946,7 +1946,7 @@
 	wildmon 27, CUBONE
 	wildmon 28, ZUBAT
 	wildmon 28, MACHOP
-	wildmon 29, MUNCHLAX
+	wildmon 29, CHIKORITA
 	wildmon 30, GOLBAT
 	wildmon 28, NATU
 	wildmon 28, GOLBAT
@@ -1966,7 +1966,7 @@
 	wildmon 28, CUBONE
 	wildmon 29, ZUBAT
 	wildmon 29, GOLBAT
-	wildmon 29, MUNCHLAX
+	wildmon 29, CHIKORITA
 	wildmon 30, MACHOP
 	wildmon 31, MAROWAK
 	wildmon 28, GOLBAT
@@ -1974,7 +1974,7 @@
 	wildmon 28, CUBONE
 	wildmon 29, ZUBAT
 	wildmon 29, GOLBAT
-	wildmon 29, MUNCHLAX
+	wildmon 29, CHIKORITA
 	wildmon 30, MACHOP
 	wildmon 31, MAROWAK
 	wildmon 28, GOLBAT
