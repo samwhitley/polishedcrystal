@@ -113,7 +113,7 @@ LyraPhoneLyrasEggCyndaquilText:
 	done
 
 LyraPhoneLyrasEggTotodileText:
-	text "I left my Toto"
+	text "I left my Draco"
 	line "at the Day-Care"
 	done
 

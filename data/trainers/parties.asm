@@ -1511,7 +1511,7 @@ Lyra1Group:
 	db "Lyra@"
 	db TRAINERTYPE_NICKNAME
 	; party
-	db 5, TOTODILE, "Toto@"
+	db 5, TOTODILE, "Draco@"
 	db -1 ; end
 
 ; ================
@@ -1547,7 +1547,7 @@ Lyra1Group:
 	db 16, PIDGEY, NO_ITEM, 36, "@"
 	db 17, GROWLITHE, NO_ITEM, 36, "@"
 	db 15, MAREEP, NO_ITEM, 36, "@"
-	db 18, CROCONAW, ORAN_BERRY, 36, "Toto@"
+	db 18, CROCONAW, ORAN_BERRY, 36, "Draco@"
 	db -1 ; end
 
 ; ================
@@ -1586,7 +1586,7 @@ Lyra1Group:
 	db 34, SUNFLORA, NO_ITEM, 100, "@"
 	db 34, GROWLITHE, NO_ITEM, 100, "@"
 	db 32, FLAAFFY, NO_ITEM, 100, "@"
-	db 37, CROCONAW, ORAN_BERRY, 100, "Toto@"
+	db 37, CROCONAW, ORAN_BERRY, 100, "Draco@"
 	db -1 ; end
 
 ; ================
@@ -1628,7 +1628,7 @@ Lyra1Group:
 	db 45, SUNFLORA, NO_ITEM, 132, "@"
 	db 45, ARCANINE, NO_ITEM, 132, "@"
 	db 46, AMPHAROS, NO_ITEM, 132, "@"
-	db 47, FERALIGATR, SITRUS_BERRY, 132, "Toto@"
+	db 47, FERALIGATR, SITRUS_BERRY, 132, "Draco@"
 	db -1 ; end
 
 ; ================
@@ -1675,7 +1675,7 @@ Lyra2Group:
 	db 70, ARCANINE, NO_ITEM, "@"
 	db 71, AMPHAROS, NO_ITEM, "@"
 	db 68, GIRAFARIG, NO_ITEM, "@"
-	db 72, FERALIGATR, SITRUS_BERRY, "Toto@"
+	db 72, FERALIGATR, SITRUS_BERRY, "Draco@"
 	db -1 ; end
 
 ; ================

@@ -1585,7 +1585,7 @@ LyraNicknamedCyndaquilText:
 LyraNicknamedTotodileText:
 	text "Lyra: It's so"
 	line "cute! I'll nick-"
-	cont "name it Toto!"
+	cont "name it Draco!"
 	done
 
 ElmsLabLyraGoodChoiceText:
