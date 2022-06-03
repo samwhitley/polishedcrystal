@@ -3280,7 +3280,8 @@ DratiniEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WRAP
 	db 1, LEER
-	db 5, THUNDER_WAVE
+	db 1, BITE
+	db 8, THUNDER_WAVE
 	db 11, AQUA_JET ; Twister → egg move
 	db 15, DRAGON_RAGE
 	db 21, HEADBUTT ; Slam → tutor move
@@ -3821,12 +3822,11 @@ PichuEvosAttacks:
 MunchlaxEvosAttacks:
 	db EVOLVE_HAPPINESS, TR_ANYTIME, SNORLAX
 	db 0 ; no more evolutions
-	db 1, SWEET_KISS ; Recycle → event move
-	db 1, METRONOME
+	db 1, LICK
 	db 1, TACKLE
 	db 4, DEFENSE_CURL
 	db 9, AMNESIA
-	db 12, LICK
+	db 12, METRONOME
 	db 17, RAGE ; Chip Away → RBY TM move
 	db 20, TAKE_DOWN ; Screech → RBY TM move
 	db 25, BODY_SLAM
@@ -5292,9 +5292,9 @@ LarvitarEvosAttacks:
 	db EVOLVE_LEVEL, 30, PUPITAR
 	db 0 ; no more evolutions
 	db 1, TACKLE ; Sw/Sh move
-	db 1, BITE
 	db 1, LEER
-	db 5, SANDSTORM
+	db 1, BITE
+	db 8, SANDSTORM
 	db 10, SCREECH
 	db 14, RAGE ; Chip Away → event move
 	db 19, ROCK_SLIDE
