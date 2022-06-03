@@ -141,7 +141,7 @@ DayCareLadyScript:
 	sjump .GotLyrasEgg
 
 .GiveTotodileEgg:
-	giveegg TOTODILE
+	giveegg DRATINI
 .GotLyrasEgg
 	iffalse_jumpopenedtext DayCareText_PartyAndBoxFull
 	farwritetext _ReceivedEggText
