@@ -256,7 +256,7 @@ TotodilePokeBallScript:
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	givepoke DRATINI, NO_FORM, 5, ORAN_BERRY
+	givepoke DRATINI, NO_FORM, 5, ORAN_BERRY, POKE_BALL, AQUA_JET
 	writetext LyraChoosesStarterText
 	waitbutton
 	closetext
