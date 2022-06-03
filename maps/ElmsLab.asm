@@ -243,8 +243,8 @@ TotodilePokeBallScript:
 	iftrue_jumptext ElmPokeBallText
 	turnobject ELMSLAB_ELM, DOWN
 	refreshscreen
-	pokepic TOTODILE
-	cry TOTODILE
+	pokepic DRATINI
+	cry DRATINI
 	waitbutton
 	closepokepic
 	opentext
@@ -256,7 +256,7 @@ TotodilePokeBallScript:
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	givepoke TOTODILE, NO_FORM, 5, ORAN_BERRY
+	givepoke DRATINI, NO_FORM, 5, ORAN_BERRY
 	writetext LyraChoosesStarterText
 	waitbutton
 	closetext
@@ -302,7 +302,7 @@ ChikoritaPokeBallScript:
 	pause 15
 	disappear ELMSLAB_POKE_BALL2
 	opentext
-	getmonname TOTODILE, STRING_BUFFER_3
+	getmonname DRATINI, STRING_BUFFER_3
 	writetext LyraReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
@@ -992,8 +992,8 @@ TakeCyndaquilText:
 
 TakeTotodileText:
 	text "Elm: Do you want"
-	line "Totodile, the"
-	cont "water #mon?"
+	line "Dratini, the"
+	cont "rare #mon?"
 	done
 
 TakeChikoritaText:
