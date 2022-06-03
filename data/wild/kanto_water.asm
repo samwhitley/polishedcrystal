@@ -256,7 +256,7 @@
 	db 6 percent ; encounter rate
 	wildmon 55, SLOWBRO
 	wildmon 55, GOLDUCK
-	wildmon 40, DRAGONAIR
+	wildmon 40, CROCONAW
 	end_water_wildmons
 
 	def_water_wildmons SEAFOAM_ISLANDS_B4F

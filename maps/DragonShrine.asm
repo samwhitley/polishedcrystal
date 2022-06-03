@@ -188,10 +188,10 @@ DragonShrineElder1Script:
 	waitbutton
 	checkevent EVENT_ANSWERED_DRAGON_MASTER_QUIZ_WRONG
 	iftrue .NoExtremeSpeed
-	givepoke DRATINI, NO_FORM, 15, SITRUS_BERRY, ULTRA_BALL, EXTREMESPEED
+	givepoke TOTODILE, NO_FORM, 15, SITRUS_BERRY, ULTRA_BALL
 	sjump .FinishElderScript
 .NoExtremeSpeed
-	givepoke DRATINI, NO_FORM, 15, SITRUS_BERRY, ULTRA_BALL
+	givepoke TOTODILE, NO_FORM, 15, SITRUS_BERRY, ULTRA_BALL
 .FinishElderScript
 	iffalse_jumpopenedtext DragonShrinePartyAndBoxFullText
 	setevent EVENT_GOT_DRATINI
@@ -439,7 +439,7 @@ DragonShrineTakeThisDratiniText:
 	para "I have something"
 	line "for you."
 
-	para "Take this Dratini"
+	para "Take this Totodile"
 	line "as proof that I"
 
 	para "have recognized"
