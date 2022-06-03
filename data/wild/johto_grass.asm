@@ -1688,16 +1688,16 @@
 	wildmon 23, FLAAFFY
 	wildmon 24, FARFETCH_D
 	wildmon 23, MAREEP
-	wildmon 23, MAREEP
-	wildmon 23, MAREEP
+	wildmon 23, CHIKORITA
+	wildmon 23, BAYLEEF
 	; day
 	wildmon 25, PIDGEOTTO
 	wildmon 23, GIRAFARIG
 	wildmon 23, FLAAFFY
 	wildmon 24, FARFETCH_D
 	wildmon 23, MAREEP
-	wildmon 23, MAREEP
-	wildmon 23, MAREEP
+	wildmon 23, CHIKORITA
+	wildmon 23, BAYLEEF
 	; nite
 	wildmon 25, VENONAT
 	wildmon 23, GIRAFARIG
@@ -1938,7 +1938,7 @@
 	wildmon 27, CUBONE
 	wildmon 28, ZUBAT
 	wildmon 28, MACHOP
-	wildmon 29, CHIKORITA
+	wildmon 29, CLEFAIRY
 	wildmon 30, GOLBAT
 	wildmon 28, NATU
 	wildmon 28, GOLBAT
@@ -1946,7 +1946,7 @@
 	wildmon 27, CUBONE
 	wildmon 28, ZUBAT
 	wildmon 28, MACHOP
-	wildmon 29, CHIKORITA
+	wildmon 29, CLEFAIRY
 	wildmon 30, GOLBAT
 	wildmon 28, NATU
 	wildmon 28, GOLBAT
@@ -1966,7 +1966,7 @@
 	wildmon 28, CUBONE
 	wildmon 29, ZUBAT
 	wildmon 29, GOLBAT
-	wildmon 29, CHIKORITA
+	wildmon 29, CLEFAIRY
 	wildmon 30, MACHOP
 	wildmon 31, MAROWAK
 	wildmon 28, GOLBAT
@@ -1974,7 +1974,7 @@
 	wildmon 28, CUBONE
 	wildmon 29, ZUBAT
 	wildmon 29, GOLBAT
-	wildmon 29, CHIKORITA
+	wildmon 29, CLEFAIRY
 	wildmon 30, MACHOP
 	wildmon 31, MAROWAK
 	wildmon 28, GOLBAT
