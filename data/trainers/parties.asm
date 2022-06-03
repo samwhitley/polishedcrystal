@@ -1154,7 +1154,7 @@ Rival0Group:
 	db TRAINERTYPE_ITEM
 	; party
 	db 4, RATTATA, NO_ITEM
-	db 5, TOTODILE, ORAN_BERRY
+	db 5, DRATINI, ORAN_BERRY
 	db -1 ; end
 
 ; ================
@@ -1195,7 +1195,7 @@ Rival1Group:
 	db 14, GASTLY, NO_ITEM, 36
 	db 16, ZUBAT, NO_ITEM, 36
 	db 15, GEODUDE, NO_ITEM, 36
-	db 18, CROCONAW, ORAN_BERRY, 36
+	db 18, DRATINI, ORAN_BERRY, 36
 	db -1 ; end
 
 ; ================
@@ -1246,8 +1246,7 @@ Rival1Group:
 		db HYPNOSIS, CONFUSION, HEADBUTT, LOW_KICK
 	db 20, ZUBAT, NO_ITEM, 52
 		db LEECH_LIFE, SUPERSONIC, BITE, CONFUSE_RAY
-	db 22, CROCONAW, ORAN_BERRY, 52
-		db LEER, RAGE, WATER_GUN, BITE
+	db 22, DRATINI, ORAN_BERRY, 52
 	db -1 ; end
 
 ; ================
@@ -1298,8 +1297,7 @@ Rival1Group:
 		db PAIN_SPLIT, MEAN_LOOK, CONFUSE_RAY, SHADOW_BALL
 	db 41, SNEASEL, NO_ITEM, 116
 		db SLASH, ICE_PUNCH, HONE_CLAWS, FEINT_ATTACK
-	db 43, FERALIGATR, SITRUS_BERRY, 116
-		db SLASH, SURF, CRUNCH, NIGHT_SLASH
+	db 43, DRAGONAIR, SITRUS_BERRY, 116
 	db -1 ; end
 
 ; ================
@@ -1356,8 +1354,7 @@ Rival1Group:
 		db MEAN_LOOK, DARK_PULSE, SHADOW_BALL, CONFUSE_RAY
 	db 46, ALAKAZAM, BRIGHTPOWDER
 		db DISABLE, PSYCHIC_M, RECOVER, CONFUSE_RAY
-	db 49, FERALIGATR, SITRUS_BERRY
-		db CRUNCH, SURF, SLASH, SCARY_FACE
+	db 49, DRAGONAIR, SITRUS_BERRY
 	db -1 ; end
 
 ; ================
@@ -1381,7 +1378,7 @@ Rival2Group:
 		db MEAN_LOOK, CURSE, SHADOW_BALL, CONFUSE_RAY
 	db 63, ALAKAZAM, BRIGHTPOWDER, 228
 		db DISABLE, RECOVER, FUTURE_SIGHT, PSYCHIC_M
-	db 65, SNORLAX, LEFTOVERS, 228
+	db 65, SNORLAX, SILK_SCARF, 228
 	db -1 ; end
 
 ; ================
@@ -1419,8 +1416,7 @@ Rival2Group:
 		db MEAN_LOOK, CURSE, SHADOW_BALL, CONFUSE_RAY
 	db 63, ALAKAZAM, BRIGHTPOWDER, 228
 		db DISABLE, RECOVER, FUTURE_SIGHT, PSYCHIC_M
-	db 65, FERALIGATR, MYSTIC_WATER, 228
-		db WATERFALL, CRUNCH, SLASH, SCARY_FACE
+	db 65, DRAGONITE, DRAGON_FANG, 228
 	db -1 ; end
 
 ; ================
@@ -1477,8 +1473,7 @@ Rival2Group:
 		db THUNDERBOLT, FOCUS_BLAST, SHADOW_BALL, CONFUSE_RAY
 	db 70, ALAKAZAM, BRIGHTPOWDER
 		db RECOVER, TRI_ATTACK, PSYCHIC_M, REFLECT
-	db 72, FERALIGATR, LEFTOVERS
-		db SURF, CRUNCH, SLASH, OUTRAGE
+	db 72, DRAGONITE, LEFTOVERS
 	db -1 ; end
 
 ; ================
@@ -1511,7 +1506,7 @@ Lyra1Group:
 	db "Lyra@"
 	db TRAINERTYPE_NICKNAME
 	; party
-	db 5, TOTODILE, "Draco@"
+	db 5, DRATINI, "Draco@"
 	db -1 ; end
 
 ; ================
@@ -1547,7 +1542,7 @@ Lyra1Group:
 	db 16, PIDGEY, NO_ITEM, 36, "@"
 	db 17, GROWLITHE, NO_ITEM, 36, "@"
 	db 15, MAREEP, NO_ITEM, 36, "@"
-	db 18, CROCONAW, ORAN_BERRY, 36, "Draco@"
+	db 18, DRATINI, ORAN_BERRY, 36, "Draco@"
 	db -1 ; end
 
 ; ================
@@ -1586,7 +1581,7 @@ Lyra1Group:
 	db 34, SUNFLORA, NO_ITEM, 100, "@"
 	db 34, GROWLITHE, NO_ITEM, 100, "@"
 	db 32, FLAAFFY, NO_ITEM, 100, "@"
-	db 37, CROCONAW, ORAN_BERRY, 100, "Draco@"
+	db 37, DRAGONAIR, ORAN_BERRY, 100, "Draco@"
 	db -1 ; end
 
 ; ================
@@ -1628,7 +1623,7 @@ Lyra1Group:
 	db 45, SUNFLORA, NO_ITEM, 132, "@"
 	db 45, ARCANINE, NO_ITEM, 132, "@"
 	db 46, AMPHAROS, NO_ITEM, 132, "@"
-	db 47, FERALIGATR, SITRUS_BERRY, 132, "Draco@"
+	db 47, DRAGONAIR, SITRUS_BERRY, 132, "Draco@"
 	db -1 ; end
 
 ; ================
@@ -1675,7 +1670,7 @@ Lyra2Group:
 	db 70, ARCANINE, NO_ITEM, "@"
 	db 71, AMPHAROS, NO_ITEM, "@"
 	db 68, GIRAFARIG, NO_ITEM, "@"
-	db 72, FERALIGATR, SITRUS_BERRY, "Draco@"
+	db 72, DRAGONITE, SITRUS_BERRY, "Draco@"
 	db -1 ; end
 
 ; ================
