@@ -13,7 +13,7 @@ if DEF(FAITHFUL)
 else
 	abilities_for LARVITAR, GUTS, BATTLE_ARMOR, SAND_VEIL
 endc
-	db GROWTH_MEDIUM_SLOW ; growth rate
+	db GROWTH_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_MONSTER ; egg groups
 
 	ev_yield   0,   1,   0,   0,   0,   0

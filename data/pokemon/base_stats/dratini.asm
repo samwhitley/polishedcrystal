@@ -9,7 +9,7 @@
 	dn GENDER_F12_5, 7 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/dratini/front.dimensions"
 	abilities_for DRATINI, SHED_SKIN, SHED_SKIN, MARVEL_SCALE
-	db GROWTH_MEDIUM_SLOW ; growth rate
+	db GROWTH_SLOW ; growth rate
 	dn EGG_WATER_1, EGG_DRAGON ; egg groups
 
 	ev_yield   0,   1,   0,   0,   0,   0
