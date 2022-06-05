@@ -1417,9 +1417,9 @@ Lyra1Group:
 
 	; LYRA1
 	db "Lyra@"
-	db TRAINERTYPE_NICKNAME
+	db TRAINERTYPE_ITEM | TRAINERTYPE_NICKNAME
 	; party
-	db 5, MUNCHLAX, "Munchy@"
+	db 5, MUNCHLAX, NUGGET, "Munchy@"
 	db -1 ; end
 
 ; ================
