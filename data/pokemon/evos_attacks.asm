@@ -74,7 +74,7 @@ VenusaurEvosAttacks:
 CharmanderEvosAttacks:
 	db EVOLVE_LEVEL, 16, CHARMELEON
 	db 0 ; no more evolutions
-	db 1, SCRATCH
+	db 1, TACKLE
 	db 1, GROWL
 	db 7, EMBER
 	db 10, SMOKESCREEN
@@ -91,7 +91,7 @@ CharmanderEvosAttacks:
 CharmeleonEvosAttacks:
 	db EVOLVE_LEVEL, 36, CHARIZARD
 	db 0 ; no more evolutions
-	db 1, SCRATCH
+	db 1, TACKLE
 	db 1, GROWL
 	db 7, EMBER
 	db 10, SMOKESCREEN
@@ -114,7 +114,7 @@ CharizardEvosAttacks:
 	db 1, SHADOW_CLAW
 	db 1, AIR_SLASH
 	db 1, OUTRAGE ; HGSS tutor move
-	db 1, SCRATCH
+	db 1, TACKLE
 	db 1, GROWL
 	db 7, EMBER
 	db 10, SMOKESCREEN
@@ -327,7 +327,7 @@ RattataPlainEvosAttacks:
 RattataAlolanEvosAttacks:
 	db EVOLVE_LEVEL, 20, RATICATE
 	db 0 ; no more evolutions
-	db 1, TACKLE
+	db 1, SCRATCH
 	db 1, LEER ; Tail Whip → similar move
 	db 4, QUICK_ATTACK
 	db 7, FOCUS_ENERGY
@@ -347,7 +347,7 @@ RaticateAlolanEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCARY_FACE ; evolution move
 	db 1, SWORDS_DANCE
-	db 1, TACKLE
+	db 1, SCRATCH
 	db 1, LEER ; Tail Whip → similar move
 	db 4, QUICK_ATTACK
 	db 7, FOCUS_ENERGY
@@ -487,7 +487,7 @@ RaichuAlolanEvosAttacks:
 SandshrewPlainEvosAttacks:
 	db EVOLVE_LEVEL, 22, SANDSLASH
 	db 0 ; no more evolutions
-	db 1, SCRATCH
+	db 1, TACKLE
 	db 1, DEFENSE_CURL
 	db 3, MUD_SLAP ; Sand Attack → similar move
 	db 5, POISON_STING
@@ -509,7 +509,7 @@ SandshrewPlainEvosAttacks:
 SandshrewAlolanEvosAttacks:
 	db EVOLVE_ITEM, ICE_STONE, SANDSLASH
 	db 0 ; no more evolutions
-	db 1, SCRATCH
+	db 1, TACKLE
 	db 1, DEFENSE_CURL
 	db 3, FOCUS_ENERGY ; Bide → new move
 	db 5, ICY_WIND ; Powder Snow → similar move
@@ -530,7 +530,7 @@ SandshrewAlolanEvosAttacks:
 
 SandslashPlainEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, SCRATCH
+	db 1, TACKLE
 	db 1, SLASH ; Crush Claw → Slash ; evolution move
 	db 1, DEFENSE_CURL
 	db 3, MUD_SLAP ; Sand Attack → similar move
@@ -902,7 +902,7 @@ VileplumeEvosAttacks:
 ParasEvosAttacks:
 	db EVOLVE_LEVEL, 24, PARASECT
 	db 0 ; no more evolutions
-	db 1, SCRATCH
+	db 1, TACKLE
 	db 2, SLEEP_POWDER ; Let's Go move
 	db 4, STUN_SPORE
 	db 6, POISONPOWDER
@@ -920,7 +920,7 @@ ParasEvosAttacks:
 ParasectEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SHADOW_CLAW ; evolution move
-	db 1, SCRATCH
+	db 1, TACKLE
 	db 2, SLEEP_POWDER ; Let's Go move
 	db 4, STUN_SPORE
 	db 6, POISONPOWDER
@@ -979,7 +979,7 @@ DiglettPlainEvosAttacks:
 	db EVOLVE_LEVEL, 26, DUGTRIO
 	db 0 ; no more evolutions
 	db 1, MUD_SLAP ; Sand Attack → Mud-Slap
-	db 1, SCRATCH
+	db 1, TACKLE
 	db 1, CHARM ; XD move
 	db 4, GROWL
 	db 7, ASTONISH
@@ -1020,7 +1020,7 @@ DugtrioPlainEvosAttacks:
 	db 1, TRI_ATTACK ; Sand Tomb → Tri Attack ; evolution move
 	db 1, NIGHT_SLASH
 	db 1, MUD_SLAP ; Sand Attack → Mud-Slap
-	db 1, SCRATCH
+	db 1, TACKLE
 	db 1, CHARM ; XD move
 	db 4, GROWL
 	db 7, ASTONISH
@@ -1142,7 +1142,7 @@ PersianAlolanEvosAttacks:
 PsyduckEvosAttacks:
 	db EVOLVE_LEVEL, 33, GOLDUCK
 	db 0 ; no more evolutions
-	db 1, SCRATCH
+	db 1, TACKLE
 	db 4, LEER ; Tail Whip → similar move
 	db 7, WATER_GUN
 	db 10, CONFUSION
@@ -1161,7 +1161,7 @@ PsyduckEvosAttacks:
 
 GolduckEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, SCRATCH
+	db 1, TACKLE
 	db 1, AQUA_JET
 	db 4, LEER ; Tail Whip → similar move
 	db 7, WATER_GUN
@@ -1182,7 +1182,7 @@ GolduckEvosAttacks:
 MankeyEvosAttacks:
 	db EVOLVE_LEVEL, 28, PRIMEAPE
 	db 0 ; no more evolutions
-	db 1, SCRATCH
+	db 1, TACKLE
 	db 1, LOW_KICK
 	db 1, LEER
 	db 1, FOCUS_ENERGY
@@ -1204,7 +1204,7 @@ MankeyEvosAttacks:
 PrimeapeEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, RAGE
-	db 1, SCRATCH
+	db 1, TACKLE
 	db 1, LOW_KICK
 	db 1, LEER
 	db 1, FOCUS_ENERGY
@@ -2208,7 +2208,7 @@ KrabbyEvosAttacks:
 	db EVOLVE_LEVEL, 28, KINGLER
 	db 0 ; no more evolutions
 	db 1, AQUA_JET ; Bubble → new move
-	db 5, SCRATCH ; Vice Grip → new move
+	db 5, TACKLE ; Vice Grip → new move
 	db 9, LEER
 	db 11, DEFENSE_CURL ; Harden → similar move
 	db 15, BUBBLE_BEAM
@@ -2226,7 +2226,7 @@ KrabbyEvosAttacks:
 KinglerEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, AQUA_JET ; Bubble → new move
-	db 5, SCRATCH ; Vice Grip → new move
+	db 5, TACKLE ; Vice Grip → new move
 	db 9, LEER
 	db 11, DEFENSE_CURL ; Harden → similar move
 	db 15, BUBBLE_BEAM
@@ -3073,7 +3073,7 @@ OmastarEvosAttacks:
 KabutoEvosAttacks:
 	db EVOLVE_LEVEL, 40, KABUTOPS
 	db 0 ; no more evolutions
-	db 1, SCRATCH
+	db 1, TACKLE
 	db 1, DEFENSE_CURL ; Harden → similar move
 	db 6, ABSORB
 	db 11, MUD_SLAP ; Leer → GSC TM move
@@ -3093,7 +3093,7 @@ KabutopsEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SLASH ; evolution move
 	db 1, LOW_KICK ; HGSS tutor move
-	db 1, SCRATCH
+	db 1, TACKLE
 	db 1, DEFENSE_CURL ; Harden → similar move
 	db 6, ABSORB
 	db 11, MUD_SLAP ; Leer → GSC TM move
@@ -3511,7 +3511,7 @@ TyphlosionEvosAttacks:
 TotodileEvosAttacks:
 	db EVOLVE_LEVEL, 18, CROCONAW
 	db 0 ; no more evolutions
-	db 1, SCRATCH
+	db 1, TACKLE
 	db 1, LEER
 	db 6, WATER_GUN
 	db 8, RAGE
@@ -3533,7 +3533,7 @@ TotodileEvosAttacks:
 CroconawEvosAttacks:
 	db EVOLVE_LEVEL, 30, FERALIGATR
 	db 0 ; no more evolutions
-	db 1, SCRATCH
+	db 1, TACKLE
 	db 1, LEER
 	db 6, WATER_GUN
 	db 8, RAGE
@@ -3555,7 +3555,7 @@ CroconawEvosAttacks:
 FeraligatrEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, NIGHT_SLASH ; evolution move
-	db 1, SCRATCH
+	db 1, TACKLE
 	db 1, LEER
 	db 6, WATER_GUN
 	db 8, RAGE
@@ -4686,7 +4686,7 @@ TeddiursaEvosAttacks:
 	db EVOLVE_LEVEL, 30, URSARING
 	db 0 ; no more evolutions
 	db 1, THIEF ; Covet → TM move
-	db 1, SCRATCH
+	db 1, TACKLE
 	db 1, GROWL ; Baby-Doll Eyes → similar move
 	db 1, LICK
 	db 1, FOCUS_ENERGY ; Fake Tears → egg move
@@ -4706,7 +4706,7 @@ UrsaringEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, GUNK_SHOT ; HGSS tutor move
 	db 1, THIEF ; Covet → TM move
-	db 1, SCRATCH
+	db 1, TACKLE
 	db 1, LEER
 	db 1, LICK
 	db 1, FOCUS_ENERGY ; Fake Tears → egg move
@@ -5314,7 +5314,7 @@ PupitarEvosAttacks:
 	db EVOLVE_LEVEL, 55, TYRANITAR
 	db 0 ; no more evolutions
 	db 1, DEFENSE_CURL ; evolution move
-	db 1, TACKLE ; Sw/Sh move
+	db 1, SCRATCH ; Sw/Sh move
 	db 1, BITE
 	db 1, LEER
 	db 5, SANDSTORM
@@ -5338,7 +5338,7 @@ TyranitarEvosAttacks:
 	db 1, STOMP ; evolution move
 	db 1, LOW_KICK ; HGSS tutor move
 	db 1, DRAGONBREATH ; GSC TM move
-	db 1, TACKLE ; Sw/Sh move
+	db 1, SCRATCH ; Sw/Sh move
 	db 1, BITE
 	db 1, LEER
 	db 5, SANDSTORM
