@@ -9,7 +9,7 @@
 	dn GENDER_F12_5, 7 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/munchlax/front.dimensions"
 	abilities_for MUNCHLAX, RUN_AWAY, THICK_FAT, GLUTTONY
-	db GROWTH_SLOW ; growth rate
+	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_NONE, EGG_NONE ; egg groups
 
 	ev_yield   1,   0,   0,   0,   0,   0
