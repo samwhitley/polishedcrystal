@@ -3278,9 +3278,9 @@ MoltresGalarianEvosAttacks:
 DratiniEvosAttacks:
 	db EVOLVE_LEVEL, 30, DRAGONAIR
 	db 0 ; no more evolutions
+	db 1, SCRATCH
 	db 1, WRAP
 	db 1, LEER
-	db 1, BITE
 	db 8, THUNDER_WAVE
 	db 11, AQUA_JET ; Twister → egg move
 	db 15, DRAGON_RAGE
@@ -3822,9 +3822,9 @@ PichuEvosAttacks:
 MunchlaxEvosAttacks:
 	db EVOLVE_HAPPINESS, TR_ANYTIME, SNORLAX
 	db 0 ; no more evolutions
-	db 1, LICK
 	db 1, TACKLE
-	db 4, DEFENSE_CURL
+	db 1, DEFENSE_CURL
+	db 6, LICK
 	db 9, AMNESIA
 	db 12, METRONOME
 	db 17, RAGE ; Chip Away → RBY TM move
@@ -5291,9 +5291,9 @@ SuicuneEvosAttacks:
 LarvitarEvosAttacks:
 	db EVOLVE_LEVEL, 30, PUPITAR
 	db 0 ; no more evolutions
-	db 1, TACKLE ; Sw/Sh move
+	db 1, SCRATCH
 	db 1, LEER
-	db 1, BITE
+	db 6, BITE
 	db 8, SANDSTORM
 	db 10, SCREECH
 	db 14, RAGE ; Chip Away → event move
