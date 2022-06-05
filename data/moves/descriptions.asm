@@ -747,8 +747,8 @@ ExtremespeedDescription:
 	next "strike attack.@"
 
 ScratchDescription:
-	db   "Like Tackle"
-	next "but edgier.@"
+	db   "A fast and savage"
+	next "strike.@"
 
 PeckDescription:
 	db   "Jabs the foe with"
