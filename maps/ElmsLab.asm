@@ -1579,7 +1579,7 @@ LyraNicknamedChikoritaText:
 LyraNicknamedCyndaquilText:
 	text "Lyra: It's so"
 	line "cute! I'll nick-"
-	cont "name it Zilla!"
+	cont "name it Larvy!"
 	done
 
 LyraNicknamedTotodileText:

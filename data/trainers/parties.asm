@@ -1428,7 +1428,7 @@ Lyra1Group:
 	db "Lyra@"
 	db TRAINERTYPE_NICKNAME
 	; party
-	db 5, LARVITAR, "Zilla@"
+	db 5, LARVITAR, "Larvy@"
 	db -1 ; end
 
 ; ================
@@ -1461,7 +1461,7 @@ Lyra1Group:
 	db 16, PIDGEY, NO_ITEM, 36, "@"
 	db 17, SUNKERN, NO_ITEM, 36, "@"
 	db 15, MAREEP, NO_ITEM, 36, "@"
-	db 18, LARVITAR, ORAN_BERRY, 36, "Zilla@"
+	db 18, LARVITAR, ORAN_BERRY, 36, "Larvy@"
 	db -1 ; end
 
 ; ================
@@ -1499,7 +1499,7 @@ Lyra1Group:
 	db 34, SUNFLORA, NO_ITEM, 100, "@"
 	db 34, AZUMARILL, NO_ITEM, 100, "@"
 	db 32, FLAAFFY, NO_ITEM, 100, "@"
-	db 37, PUPITAR, ORAN_BERRY, 100, "Zilla@"
+	db 37, PUPITAR, ORAN_BERRY, 100, "Larvy@"
 	db -1 ; end
 
 ; ================
@@ -1540,7 +1540,7 @@ Lyra1Group:
 	db 45, SUNFLORA, NO_ITEM, 132, "@"
 	db 45, AZUMARILL, NO_ITEM, 132, "@"
 	db 46, AMPHAROS, NO_ITEM, 132, "@"
-	db 47, PUPITAR, SITRUS_BERRY, 132, "Zilla@"
+	db 47, PUPITAR, SITRUS_BERRY, 132, "Larvy@"
 	db -1 ; end
 
 ; ================
@@ -1587,7 +1587,7 @@ Lyra2Group:
 	db 70, AZUMARILL, NO_ITEM, "@"
 	db 71, AMPHAROS, NO_ITEM, "@"
 	db 68, MILTANK, NO_ITEM, "@"
-	db 72, TYRANITAR, SITRUS_BERRY, "Zilla@"
+	db 72, TYRANITAR, SITRUS_BERRY, "Larvy@"
 	db -1 ; end
 
 ; ================
