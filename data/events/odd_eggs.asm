@@ -17,7 +17,7 @@ prob_total = 0
 	prob 24
 ; Tyrogue
 	prob 20
-; Munchlax
+; Chansey
 	prob 20
 	assert_table_length NUM_ODD_EGGS
 
@@ -43,8 +43,8 @@ OddEggs:
 	db $BB, $BB, $BB ; DVs
 	db SHINY_MASK | HIDDEN_ABILITY | QUIRKY, IS_EGG_MASK ; Personality
 
-	db MUNCHLAX
-	db SWEET_KISS, METRONOME, TACKLE, DIZZY_PUNCH
+	db CHANSEY
+	db METRONOME, DEFENSE_CURL, TACKLE, HEAL_BELL
 	db $BB, $BB, $BB ; DVs
 	db SHINY_MASK | HIDDEN_ABILITY | QUIRKY, IS_EGG_MASK ; Personality
 

@@ -7,25 +7,25 @@
 	wildmon 1, 0
 	wildmon 1, 0
 	wildmon 1, 0
-	wildmon 80, DRAGONAIR
-	wildmon 82, DRAGONITE
-	wildmon 85, DRAGONITE
+	wildmon 80, CROCONAW
+	wildmon 82, FERALIGATR
+	wildmon 85, FERALIGATR
 	; day
 	wildmon 1, 0
 	wildmon 1, 0
 	wildmon 1, 0
 	wildmon 1, 0
-	wildmon 80, DRAGONAIR
-	wildmon 82, DRAGONITE
-	wildmon 85, DRAGONITE
+	wildmon 80, CROCONAW
+	wildmon 82, FERALIGATR
+	wildmon 85, FERALIGATR
 	; nite
 	wildmon 1, 0
 	wildmon 1, 0
 	wildmon 1, 0
 	wildmon 1, 0
-	wildmon 80, DRAGONAIR
-	wildmon 82, DRAGONITE
-	wildmon 85, DRAGONITE
+	wildmon 80, CROCONAW
+	wildmon 82, FERALIGATR
+	wildmon 85, FERALIGATR
 	end_grass_wildmons
 
 	db -1 ; end

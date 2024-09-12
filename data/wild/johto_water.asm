@@ -130,7 +130,7 @@
 	db 4 percent ; encounter rate
 	wildmon 25, MAGIKARP
 	wildmon 30, MAGIKARP
-	wildmon 20, DRATINI
+	wildmon 20, TOTODILE
 	end_water_wildmons
 
 	def_water_wildmons OLIVINE_PORT

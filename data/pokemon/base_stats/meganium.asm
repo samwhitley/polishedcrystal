@@ -10,7 +10,7 @@ endc
 	db 208 ; base exp
 	db NO_ITEM ; item 1
 	db NO_ITEM ; item 2
-	dn GENDER_F12_5, 3 ; gender ratio, step cycles to hatch
+	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/meganium/front.dimensions"
 if DEF(FAITHFUL)
 	abilities_for MEGANIUM, OVERGROW, OVERGROW, LEAF_GUARD

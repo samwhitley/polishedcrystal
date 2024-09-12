@@ -6,7 +6,7 @@
 	db 67 ; base exp
 	db NO_ITEM ; item 1
 	db NO_ITEM ; item 2
-	dn GENDER_F50, 7 ; gender ratio, step cycles to hatch
+	dn GENDER_F12_5, 7 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/larvitar/front.dimensions"
 if DEF(FAITHFUL)
 	abilities_for LARVITAR, GUTS, GUTS, SAND_VEIL

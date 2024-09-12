@@ -145,15 +145,15 @@ DragonsDenB1FSilverScript:
 	iftrue .GiveChikoritaEgg
 	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
 	iftrue .GiveCyndaquilEgg
-	giveegg TOTODILE
+	giveegg DRATINI
 	sjump .GotRivalsEgg
 
 .GiveChikoritaEgg:
-	giveegg CHIKORITA
+	giveegg MUNCHLAX
 	sjump .GotRivalsEgg
 
 .GiveCyndaquilEgg:
-	giveegg CYNDAQUIL
+	giveegg LARVITAR
 .GotRivalsEgg
 	iffalse .PartyAndBoxFull 
 	writetext .DescribeEggText

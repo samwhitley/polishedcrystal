@@ -203,8 +203,8 @@ CyndaquilPokeBallScript:
 	iftrue_jumptext ElmPokeBallText
 	turnobject ELMSLAB_ELM, DOWN
 	refreshscreen
-	pokepic CYNDAQUIL
-	cry CYNDAQUIL
+	pokepic LARVITAR
+	cry LARVITAR
 	waitbutton
 	closepokepic
 	opentext
@@ -216,7 +216,7 @@ CyndaquilPokeBallScript:
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	givepoke CYNDAQUIL, NO_FORM, 5, ORAN_BERRY
+	givepoke LARVITAR, NO_FORM, 5, ORAN_BERRY
 	writetext LyraChoosesStarterText
 	waitbutton
 	closetext
@@ -224,7 +224,7 @@ CyndaquilPokeBallScript:
 	pause 15
 	disappear ELMSLAB_POKE_BALL3
 	opentext
-	getmonname CHIKORITA, STRING_BUFFER_3
+	getmonname MUNCHLAX, STRING_BUFFER_3
 	writetext LyraReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
@@ -243,8 +243,8 @@ TotodilePokeBallScript:
 	iftrue_jumptext ElmPokeBallText
 	turnobject ELMSLAB_ELM, DOWN
 	refreshscreen
-	pokepic TOTODILE
-	cry TOTODILE
+	pokepic DRATINI
+	cry DRATINI
 	waitbutton
 	closepokepic
 	opentext
@@ -256,7 +256,7 @@ TotodilePokeBallScript:
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	givepoke TOTODILE, NO_FORM, 5, ORAN_BERRY
+	givepoke DRATINI, NO_FORM, 5, ORAN_BERRY
 	writetext LyraChoosesStarterText
 	waitbutton
 	closetext
@@ -264,7 +264,7 @@ TotodilePokeBallScript:
 	pause 15
 	disappear ELMSLAB_POKE_BALL1
 	opentext
-	getmonname CYNDAQUIL, STRING_BUFFER_3
+	getmonname LARVITAR, STRING_BUFFER_3
 	writetext LyraReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
@@ -281,8 +281,8 @@ ChikoritaPokeBallScript:
 	iftrue_jumptext ElmPokeBallText
 	turnobject ELMSLAB_ELM, DOWN
 	refreshscreen
-	pokepic CHIKORITA
-	cry CHIKORITA
+	pokepic MUNCHLAX
+	cry MUNCHLAX
 	waitbutton
 	closepokepic
 	opentext
@@ -294,7 +294,7 @@ ChikoritaPokeBallScript:
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	givepoke CHIKORITA, NO_FORM, 5, ORAN_BERRY
+	givepoke MUNCHLAX, NO_FORM, 5, ORAN_BERRY
 	writetext LyraChoosesStarterText
 	waitbutton
 	closetext
@@ -302,7 +302,7 @@ ChikoritaPokeBallScript:
 	pause 15
 	disappear ELMSLAB_POKE_BALL2
 	opentext
-	getmonname TOTODILE, STRING_BUFFER_3
+	getmonname DRATINI, STRING_BUFFER_3
 	writetext LyraReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
@@ -986,20 +986,20 @@ LabWhereGoingText:
 
 TakeCyndaquilText:
 	text "Elm: You'll take"
-	line "Cyndaquil, the"
-	cont "fire #mon?"
+	line "Larvitar, the"
+	cont "beast #mon?"
 	done
 
 TakeTotodileText:
 	text "Elm: Do you want"
-	line "Totodile, the"
-	cont "water #mon?"
+	line "Dratini, the"
+	cont "rare #mon?"
 	done
 
 TakeChikoritaText:
 	text "Elm: So, you like"
-	line "Chikorita, the"
-	cont "grass #mon?"
+	line "Munchlax, the"
+	cont "lazy #mon?"
 	done
 
 DidntChooseStarterText:
@@ -1573,19 +1573,19 @@ LyraReceivedStarterText:
 LyraNicknamedChikoritaText:
 	text "Lyra: It's so"
 	line "cute! I'll nick-"
-	cont "name it Chicory!"
+	cont "name it Munchy!"
 	done
 
 LyraNicknamedCyndaquilText:
 	text "Lyra: It's so"
 	line "cute! I'll nick-"
-	cont "name it Cinder!"
+	cont "name it Larvy!"
 	done
 
 LyraNicknamedTotodileText:
 	text "Lyra: It's so"
 	line "cute! I'll nick-"
-	cont "name it Toto!"
+	cont "name it Teeny!"
 	done
 
 ElmsLabLyraGoodChoiceText:

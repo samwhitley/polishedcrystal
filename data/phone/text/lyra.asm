@@ -103,17 +103,17 @@ LyraPhoneLyrasEggIntroText:
 	done
 
 LyraPhoneLyrasEggChikoritaText:
-	text "I left my Chicory"
+	text "I left my Munchy"
 	line "at the Day-Care"
 	done
 
 LyraPhoneLyrasEggCyndaquilText:
-	text "I left my Cinder"
+	text "I left my Larvy"
 	line "at the Day-Care"
 	done
 
 LyraPhoneLyrasEggTotodileText:
-	text "I left my Toto"
+	text "I left my Teeny"
 	line "at the Day-Care"
 	done
 
